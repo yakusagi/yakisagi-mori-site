@@ -47,10 +47,15 @@ export default function Products() {
           />
           <div className="mt-12 grid gap-px bg-border md:grid-cols-2 xl:grid-cols-3">
             {productsPage.finishes.map((finish) => (
-              <div key={`${finish.family}-${finish.name}`} className="bg-background px-5 py-6">
-                <p className="text-xs uppercase tracking-[0.32em] text-muted-foreground">{finish.family}</p>
-                <h3 className="mt-3 font-serif text-2xl tracking-[0.08em]">{finish.name}</h3>
-                <p className="mt-2 text-sm leading-7 text-muted-foreground">{finish.detail}</p>
+              <div key={`${finish.family}-${finish.name}`} className="bg-background">
+                {finish.image && (
+                  <img src={finish.image} alt={finish.name} className="w-full h-auto object-cover" />
+                )}
+                <div className="px-5 py-6">
+                  <p className="text-xs uppercase tracking-[0.32em] text-muted-foreground">{finish.family}</p>
+                  <h3 className="mt-3 font-serif text-2xl tracking-[0.08em]">{finish.name}</h3>
+                  <p className="mt-2 text-sm leading-7 text-muted-foreground">{finish.detail}</p>
+                </div>
               </div>
             ))}
           </div>
