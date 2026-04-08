@@ -21,7 +21,7 @@ export const heroAssets = {
     year: "1974",
     image:
       "https://d2xsxph8kpxj0f.cloudfront.net/310519663528116740/g9YtKY8Vhdu6ggym3JQWsS/hero-charred-wood_d6bf53c7.jpg",
-    video: "https://studiotsukuru.com.au//wp-content/uploads/2026/03/TS_Main_Vid_22sec_4mb.webm",
+    video: "https://d2xsxph8kpxj0f.cloudfront.net/310519663528116740/g9YtKY8Vhdu6ggym3JQWsS/yakisagi_hero_c2eef950.webm",
   },
   products: {
     eyebrow: "製品一覧",
