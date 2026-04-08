@@ -168,7 +168,7 @@ export function PageBanner({
           </p>
         </div>
 
-        <div className="grid gap-5 xl:grid-cols-[minmax(0,1.1fr)_82px] xl:items-start">
+        <div className="grid gap-5 xl:grid-cols-1 xl:items-start">
           <div className="relative overflow-hidden border border-border/60 bg-muted/30 shadow-[0_24px_70px_rgba(28,20,12,0.08)]">
             {asset.video ? (
               <video
@@ -239,7 +239,7 @@ export function PageBanner({
           </div>
 
           <div className="hidden xl:flex xl:justify-center">
-            <div className="writing-mode-vertical text-right font-display text-[4.2rem] uppercase leading-none tracking-[0.03em] text-foreground">
+            <div className="writing-mode-vertical text-right font-display text-[4.2rem] uppercase leading-none tracking-[0.03em] text-white">
               {asset.label}
             </div>
           </div>
