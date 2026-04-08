@@ -197,7 +197,7 @@ export function PageBanner({
                 className="h-[300px] w-full object-cover brightness-[0.5] contrast-[1.06] saturate-[0.66] md:h-[430px]"
               />
             )}
-            <div className="absolute inset-0 bg-[linear-gradient(90deg,rgba(18,15,12,0.8)_0%,rgba(18,15,12,0.42)_38%,rgba(18,15,12,0.12)_100%)]" />
+
             <div className="absolute inset-x-0 bottom-0 p-5 md:p-8">
               {yearMark ? (
                 <div className="mb-2 text-[clamp(4rem,12vw,9rem)] font-semibold leading-none tracking-[-0.06em] text-white/10">
