@@ -179,7 +179,11 @@ export function PageBanner({
                 crossOrigin="anonymous"
                 className="h-[300px] w-full object-cover brightness-[0.5] contrast-[1.06] saturate-[0.66] md:h-[430px]"
               >
-                <source src={asset.video} type="video/webm" />
+                {asset.video?.endsWith('.mp4') ? (
+                  <source src={asset.video} type="video/mp4" />
+                ) : (
+                  <source src={asset.video} type="video/webm" />
+                )}
                 <img
                   src={asset.image}
                   alt={asset.eyebrow}

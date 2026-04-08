@@ -21,7 +21,7 @@ export const heroAssets = {
     year: "1974",
     image:
       "https://d2xsxph8kpxj0f.cloudfront.net/310519663528116740/g9YtKY8Vhdu6ggym3JQWsS/hero-charred-wood_d6bf53c7.jpg",
-    video: "https://d2xsxph8kpxj0f.cloudfront.net/310519663528116740/g9YtKY8Vhdu6ggym3JQWsS/yakisagi_hero_c2eef950.webm",
+    video: "https://d2xsxph8kpxj0f.cloudfront.net/310519663528116740/g9YtKY8Vhdu6ggym3JQWsS/yakisagi_19sec_7f547655.mp4",
   },
   products: {
     eyebrow: "製品一覧",
