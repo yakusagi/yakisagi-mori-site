@@ -21,30 +21,31 @@ export const heroAssets = {
     year: "1974",
     image:
       "https://d2xsxph8kpxj0f.cloudfront.net/310519663528116740/g9YtKY8Vhdu6ggym3JQWsS/hero-charred-wood_d6bf53c7.jpg",
+    video: "https://studiotsukuru.com.au//wp-content/uploads/2026/03/TS_Main_Vid_22sec_4mb.webm",
   },
   products: {
     eyebrow: "製品一覧",
     label: "PRODUCTS",
     image:
-      "https://d2xsxph8kpxj0f.cloudfront.net/310519663528116740/g9YtKY8Vhdu6ggym3JQWsS/hero-charred-architecture_49bcce56.jpeg",
+      "https://d2xsxph8kpxj0f.cloudfront.net/310519663528116740/g9YtKY8Vhdu6ggym3JQWsS/yakisugi-detail_cad40bea.webp",
   },
   resources: {
     eyebrow: "資料室",
     label: "RESOURCES",
     image:
-      "https://d2xsxph8kpxj0f.cloudfront.net/310519663528116740/g9YtKY8Vhdu6ggym3JQWsS/yakisugi-detail_cad40bea.webp",
+      "https://d2xsxph8kpxj0f.cloudfront.net/310519663528116740/g9YtKY8Vhdu6ggym3JQWsS/charred-cedar-cladding_e1f5cb67.jpg",
   },
   about: {
     eyebrow: "私たちについて",
     label: "ABOUT",
     image:
-      "https://d2xsxph8kpxj0f.cloudfront.net/310519663528116740/g9YtKY8Vhdu6ggym3JQWsS/charred-timber-projects_87843dbf.jpg",
+      "https://d2xsxph8kpxj0f.cloudfront.net/310519663528116740/g9YtKY8Vhdu6ggym3JQWsS/hero-charred-architecture_49bcce56.jpeg",
   },
   contact: {
     eyebrow: "お問い合わせ",
     label: "CONTACT",
     image:
-      "https://d2xsxph8kpxj0f.cloudfront.net/310519663528116740/g9YtKY8Vhdu6ggym3JQWsS/charred-cedar-cladding_e1f5cb67.jpg",
+      "https://d2xsxph8kpxj0f.cloudfront.net/310519663528116740/g9YtKY8Vhdu6ggym3JQWsS/charred-timber-projects_87843dbf.jpg",
   },
 } as const;
 

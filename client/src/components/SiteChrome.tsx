@@ -15,6 +15,7 @@ type HeroAsset = {
   eyebrow: string;
   label: string;
   image: string;
+  video?: string;
   year?: string;
 };
 
@@ -169,11 +170,29 @@ export function PageBanner({
 
         <div className="grid gap-5 xl:grid-cols-[minmax(0,1.1fr)_82px] xl:items-start">
           <div className="relative overflow-hidden border border-border/60 bg-muted/30 shadow-[0_24px_70px_rgba(28,20,12,0.08)]">
-            <img
-              src={asset.image}
-              alt={asset.eyebrow}
-              className="h-[300px] w-full object-cover brightness-[0.5] contrast-[1.06] saturate-[0.66] md:h-[430px]"
-            />
+            {asset.video ? (
+              <video
+                autoPlay
+                muted
+                loop
+                playsInline
+                crossOrigin="anonymous"
+                className="h-[300px] w-full object-cover brightness-[0.5] contrast-[1.06] saturate-[0.66] md:h-[430px]"
+              >
+                <source src={asset.video} type="video/webm" />
+                <img
+                  src={asset.image}
+                  alt={asset.eyebrow}
+                  className="h-full w-full object-cover brightness-[0.5] contrast-[1.06] saturate-[0.66]"
+                />
+              </video>
+            ) : (
+              <img
+                src={asset.image}
+                alt={asset.eyebrow}
+                className="h-[300px] w-full object-cover brightness-[0.5] contrast-[1.06] saturate-[0.66] md:h-[430px]"
+              />
+            )}
             <div className="absolute inset-0 bg-[linear-gradient(90deg,rgba(18,15,12,0.8)_0%,rgba(18,15,12,0.42)_38%,rgba(18,15,12,0.12)_100%)]" />
             <div className="absolute inset-x-0 bottom-0 p-5 md:p-8">
               {yearMark ? (
